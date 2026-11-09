@@ -1,0 +1,14 @@
+# Environment credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and generated output
+node_modules/
+coverage/
+npm-debug.log*
+
+# Uploaded user content and local logs
+uploads/
+*.log
+.DS_Store
